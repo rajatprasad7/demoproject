@@ -16,6 +16,8 @@ public class Homepage {
 	@FindBy(xpath="//*[@id=\"menu-item-43\"]/a") WebElement Home;
 
 //@FindBy(xpath="//a[normalize-space()=Home]") WebElement home;
+	//Action
+	
 @FindBy(xpath="//input[@id='form_first_name_7']")  WebElement name;
 @FindBy(xpath="//input[@id='form_email_7']") WebElement emailAddress;
 @FindBy(xpath="//input[@value='Get XPath cheat sheet']")  WebElement getXPathCheatSheet;
