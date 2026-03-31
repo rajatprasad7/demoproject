@@ -4,14 +4,14 @@
   <listeners>
     <listener class-name="com.test1.utilits.ExtentreportListener"/>
   </listeners>
-  <test thread-count="5" name="praticeclass(failed)">
+  <test thread-count="5" name="Courseclass(failed)">
     <classes>
-      <class name="com.trvel1.testcase.Praticalclass">
+      <class name="com.trvel1.testcase.Courseclass">
         <methods>
-          <include name="pratice"/>
+          <include name="holo"/>
           <include name="browser"/>
         </methods>
-      </class> <!-- com.trvel1.testcase.Praticalclass -->
+      </class> <!-- com.trvel1.testcase.Courseclass -->
     </classes>
-  </test> <!-- praticeclass(failed) -->
+  </test> <!-- Courseclass(failed) -->
 </suite> <!-- Failed suite [Suite] -->

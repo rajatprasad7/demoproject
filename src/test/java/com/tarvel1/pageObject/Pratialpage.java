@@ -6,6 +6,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class Pratialpage {
+	
+	public WebDriver driver;
 	public WebDriver ldriver;
 	public Pratialpage(WebDriver rdriver) {
 		ldriver=rdriver;
@@ -20,10 +22,12 @@ public class Pratialpage {
 @FindBy(xpath="//*[@id=\"loop-container\"]/div/article/div[2]/div[2]/div[1]/p/a")  WebElement testExceptions;
 @FindBy(xpath="//*[@id=\"edit_btn\"]")  WebElement edit;
 @FindBy(xpath="//*[@id=\"add_btn\"]")  WebElement add;
+//WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+//wait.until(ExpectedConditions.elementToBeClickable(By.id("myElement")));
 
 @FindBy(xpath="//*[@id=\"row2\"]/input")  WebElement row2;
-@FindBy(xpath="//*[@id=\"save_btn\"]")  WebElement save;
-
+//@FindBy(xpath="//*[@id=\"save_btn\"]")  WebElement save;
+@FindBy(id="remove_btn") WebElement remove;
 public void getpratical() {
 	Pratcal.click();	
 }
@@ -40,12 +44,33 @@ public void getpratical4() {
 	edit.click();	
 }
 public void getpratical5() {
-	add.click();	
+	
+	add.click();
+	try {
+		Thread.sleep(2000);
+	} catch (InterruptedException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+
+
 }
 public void getpratical6(String name) {
+	try {
+		Thread.sleep(5000);
+	} catch (InterruptedException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	
+
 	row2.sendKeys(name);
+	
 }
-public void getpratical7() {
-	save.click();	
+//public void getpratical7() {
+//	save.click();	
+//}
+public void getremove() {
+	remove.click();
 }
 }

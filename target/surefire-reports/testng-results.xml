@@ -2,77 +2,54 @@
 <testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-13T23:33:06 IST" name="Suite" finished-at="2026-03-13T23:33:21 IST" duration-ms="15292">
+  <suite started-at="2026-03-19T12:46:55 IST" name="Suite" finished-at="2026-03-19T12:47:05 IST" duration-ms="10538">
     <groups>
     </groups>
-    <test started-at="2026-03-13T23:33:06 IST" name="Loginclas" finished-at="2026-03-13T23:33:13 IST" duration-ms="7179">
+    <test started-at="2026-03-19T12:46:55 IST" name="Loginclas" finished-at="2026-03-19T12:47:01 IST" duration-ms="6512">
       <class name="com.trvel1.testcase.Loginclas">
-        <test-method signature="login()[pri:0, instance:com.trvel1.testcase.Loginclas@12b0404f]" started-at="2026-03-13T23:33:07 IST" name="login" finished-at="2026-03-13T23:33:12 IST" duration-ms="5430" status="PASS">
+        <test-method signature="login()[pri:0, instance:com.trvel1.testcase.Loginclas@12b0404f]" started-at="2026-03-19T12:46:56 IST" name="login" finished-at="2026-03-19T12:47:00 IST" duration-ms="4700" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="out()[pri:0, instance:com.trvel1.testcase.Loginclas@12b0404f]" started-at="2026-03-13T23:33:12 IST" name="out" finished-at="2026-03-13T23:33:13 IST" duration-ms="959" status="PASS">
+        <test-method signature="out()[pri:0, instance:com.trvel1.testcase.Loginclas@12b0404f]" started-at="2026-03-19T12:47:00 IST" name="out" finished-at="2026-03-19T12:47:01 IST" duration-ms="719" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- out -->
       </class> <!-- com.trvel1.testcase.Loginclas -->
     </test> <!-- Loginclas -->
-    <test started-at="2026-03-13T23:33:14 IST" name="Homeclass" finished-at="2026-03-13T23:33:16 IST" duration-ms="1980">
+    <test started-at="2026-03-19T12:47:02 IST" name="Homeclass" finished-at="2026-03-19T12:47:04 IST" duration-ms="1913">
       <class name="com.trvel1.testcase.Homeclass">
-        <test-method signature="Home()[pri:0, instance:com.trvel1.testcase.Homeclass@5223e5ee]" started-at="2026-03-13T23:33:14 IST" name="Home" finished-at="2026-03-13T23:33:16 IST" duration-ms="1975" status="PASS">
+        <test-method signature="Home()[pri:0, instance:com.trvel1.testcase.Homeclass@5223e5ee]" started-at="2026-03-19T12:47:02 IST" name="Home" finished-at="2026-03-19T12:47:04 IST" duration-ms="1892" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Home -->
       </class> <!-- com.trvel1.testcase.Homeclass -->
     </test> <!-- Homeclass -->
-    <test started-at="2026-03-13T23:33:16 IST" name="praticeclass" finished-at="2026-03-13T23:33:21 IST" duration-ms="5014">
+    <test started-at="2026-03-19T12:47:04 IST" name="praticeclass" finished-at="2026-03-19T12:47:05 IST" duration-ms="962">
       <class name="com.trvel1.testcase.Praticalclass">
-        <test-method is-config="true" signature="browser()[pri:0, instance:com.trvel1.testcase.Praticalclass@6fe7aac8]" started-at="2026-03-13T23:33:02 IST" name="browser" finished-at="2026-03-13T23:33:06 IST" duration-ms="4234" status="PASS">
+        <test-method is-config="true" signature="browser()[pri:0, instance:com.trvel1.testcase.Praticalclass@6fe7aac8]" started-at="2026-03-19T12:46:49 IST" name="browser" finished-at="2026-03-19T12:46:55 IST" duration-ms="5168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browser -->
-        <test-method signature="pratice()[pri:0, instance:com.trvel1.testcase.Praticalclass@6fe7aac8]" started-at="2026-03-13T23:33:16 IST" name="pratice" finished-at="2026-03-13T23:33:21 IST" duration-ms="4592" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="pratice()[pri:0, instance:com.trvel1.testcase.Praticalclass@6fe7aac8]" started-at="2026-03-19T12:47:04 IST" name="pratice" finished-at="2026-03-19T12:47:05 IST" duration-ms="591" status="FAIL">
+          <exception class="java.lang.Error">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="row2"]/input"}
-  (Session info: MicrosoftEdge=145.0.3800.97)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [f3ac4f1c58efc60197d33983af144537, findElement {value=//*[@id="row2"]/input, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.97, fedcm:accounts: true, goog:processID: 25260, ms:edgeOptions: {debuggerAddress: localhost:62486}, msedge: {msedgedriverVersion: 145.0.3800.97 (f4c49d5241f1..., userDataDir: C:\Users\rajat\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62486/devtoo..., se:cdpVersion: 145.0.3800.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f3ac4f1c58efc60197d33983af144537]]>
+              <![CDATA[Unresolved compilation problems: 
+Syntax error on token ".", @ expected after this token
+Syntax error, insert "SimpleName" to complete QualifiedName
+Syntax error, insert "Identifier (" to complete MethodHeaderName
+Syntax error, insert ")" to complete MethodDeclaration
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="row2"]/input"}
-  (Session info: MicrosoftEdge=145.0.3800.97)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [f3ac4f1c58efc60197d33983af144537, findElement {value=//*[@id="row2"]/input, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.97, fedcm:accounts: true, goog:processID: 25260, ms:edgeOptions: {debuggerAddress: localhost:62486}, msedge: {msedgedriverVersion: 145.0.3800.97 (f4c49d5241f1..., userDataDir: C:\Users\rajat\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62486/devtoo..., se:cdpVersion: 145.0.3800.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f3ac4f1c58efc60197d33983af144537
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy10.sendKeys(Unknown Source)
-at com.tarvel1.pageObject.Pratialpage.getpratical6(Pratialpage.java:46)
-at com.trvel1.testcase.Praticalclass.pratice(Praticalclass.java:18)
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+Syntax error on token ".", @ expected after this token
+Syntax error, insert "SimpleName" to complete QualifiedName
+Syntax error, insert "Identifier (" to complete MethodHeaderName
+Syntax error, insert ")" to complete MethodDeclaration
+
+at com.tarvel1.pageObject.Pratialpage.<init>(Pratialpage.java:28)
+at com.trvel1.testcase.Praticalclass.pratice(Praticalclass.java:11)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -105,7 +82,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pratice -->

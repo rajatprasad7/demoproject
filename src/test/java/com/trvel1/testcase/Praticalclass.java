@@ -16,7 +16,8 @@ public class Praticalclass  extends Baseclass{
 	o.getpratical4();
 	o.getpratical5();
 	o.getpratical6("Action");
-	o.getpratical7();
+	
+	o.getremove();
 		
 	}
 }

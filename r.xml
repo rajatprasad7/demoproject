@@ -25,6 +25,15 @@
       <class name="com.trvel1.testcase.Praticalclass"/>
        
     </classes>
+  </test>
+  
+  
+  <test thread-count="6" name="Courseclass">
+    <classes>
+      
+      <class name="com.trvel1.testcase.Courseclass"/>
+       
+    </classes>
   </test> 
   
   
